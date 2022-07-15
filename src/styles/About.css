@@ -1,0 +1,54 @@
+.about{
+
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutTop{
+
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutContainer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 50%;
+    font-size: 20px;
+}
+
+.aboutContainer p{
+
+    width: 1200px;
+}
+
+.aboutContainer h1{
+
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+    height: 30px;
+}
+
+@media(max-width: 1250px){
+
+    .aboutContainer{
+
+        height: auto;
+    }
+
+    .aboutContainer p{
+
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 50px;
+    }
+}
